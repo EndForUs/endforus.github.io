@@ -217,3 +217,21 @@ h1 {
 }
 
     /*Animación del Hr*/
+
+    /*Responsive WebSite*/
+
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    hr {
+        margin: 20px 80px 20px 80px;
+    }
+
+}
