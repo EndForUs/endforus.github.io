@@ -3720,15 +3720,15 @@ input, select, textarea {
 
 					#nav ul.links li a:hover {
 						color: inherit !important;
-						background-color: rgba(255, 255, 255, 0.1);
+						background-color: rgba(255, 255, 255, 0.027);
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #141414;
 				}
 
 					#nav ul.links li.active a {
-						color: #000000 !important;
+						color: #fff !important;
 					}
 
 						#nav ul.links li.active a:hover {
@@ -3768,7 +3768,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			border-top: solid 2px #303030;
 			margin: 0;
 		}
 
@@ -3864,7 +3864,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
+				border-color: #303030;
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
@@ -4050,7 +4050,7 @@ input, select, textarea {
 		#footer input[type="email"],
 		#footer select,
 		#footer textarea {
-			border-color: #e2e2e2;
+			border-color: #303030;
 		}
 
 			#footer input[type="text"]:focus,
@@ -4081,7 +4081,7 @@ input, select, textarea {
 
 			#footer input[type="checkbox"] + label:before,
 			#footer input[type="radio"] + label:before {
-				border-color: #e2e2e2;
+				border-color: #303030;
 			}
 
 		#footer input[type="checkbox"]:checked + label:before,
@@ -4117,7 +4117,7 @@ input, select, textarea {
 		}
 
 		#footer ul.divided li {
-			border-top-color: #e2e2e2;
+			border-top-color: #303030;
 		}
 
 		#footer ul.icons li a.icon:hover:before {
@@ -4125,7 +4125,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #e2e2e2;
+			box-shadow: inset 0 0 0 2px #303030;
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
@@ -4133,11 +4133,11 @@ input, select, textarea {
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
-			border-top-color: #e2e2e2;
+			border-top-color: #303030;
 		}
 
 		#footer table tbody tr {
-			border-color: #e2e2e2;
+			border-color: #303030;
 		}
 
 			#footer table tbody tr:nth-child(2n + 1) {
@@ -4149,19 +4149,19 @@ input, select, textarea {
 		}
 
 		#footer table thead {
-			border-bottom-color: #e2e2e2;
+			border-bottom-color: #303030;
 		}
 
 		#footer table tfoot {
-			border-top-color: #e2e2e2;
+			border-top-color: #303030;
 		}
 
 		#footer table.alt tbody tr td {
-			border-color: #e2e2e2;
+			border-color: #303030;
 		}
 
 		#footer .pagination a, #footer .pagination span {
-			border-color: #e2e2e2;
+			border-color: #303030;
 		}
 
 		#footer .pagination a {
@@ -4180,11 +4180,11 @@ input, select, textarea {
 				}
 
 			#footer .pagination a.active {
-				background-color: #e2e2e2;
+				background-color: #303030;
 			}
 
 		#footer .pagination span {
-			color: #e2e2e2;
+			color: #303030;
 		}
 
 		#footer > section {
@@ -4201,7 +4201,7 @@ input, select, textarea {
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			padding: 4rem 4rem 2rem 4rem ;
-			border-left: solid 2px #e2e2e2;
+			border-left: solid 2px #303030;
 		}
 
 			#footer > section:first-child {
@@ -4222,7 +4222,7 @@ input, select, textarea {
 
 				#footer > section.split > section {
 					padding: 3rem 4rem 1rem 4rem ;
-					border-top: solid 2px #ffffff;
+					border-top: solid 2px #303030;
 				}
 
 					#footer > section.split > section:first-child {
