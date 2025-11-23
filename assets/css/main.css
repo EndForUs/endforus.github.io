@@ -2903,6 +2903,7 @@ input, select, textarea {
 
 	header {
 		cursor: default;
+		
 	}
 
 		header > .date {
@@ -3407,6 +3408,12 @@ input, select, textarea {
 				visibility: hidden;
 			}
 
+			.logobox {
+
+				order: 10;
+
+			}
+
 		#intro.hidden {
 			pointer-events: none;
 			-moz-transform: translateY(2rem);
@@ -3451,7 +3458,7 @@ input, select, textarea {
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
 				min-height: 90vh;
-				background: radial-gradient(rgba(0, 0, 0, 0.795) 10px, rgba(0, 0, 0, 0.507) 30%, #00000000 );
+				background: radial-gradient(rgba(0, 0, 0, 0.795) 10px, rgb(0, 0, 0) 30%, #00000000 );
 				background-position: 0px 15rem ;
 				background-repeat: no-repeat;
 			}
@@ -3939,10 +3946,18 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 810px) {
 
 			#main {
 				width: 100%;
+				box-shadow: 0px -10px 50px 50px rgba(0, 0, 0, 0.623);
+			}
+
+			.background {
+
+				background-size: 150%;
+				order: -10;
+
 			}
 
 		}
@@ -4180,7 +4195,7 @@ input, select, textarea {
 				}
 
 			#footer .pagination a.active {
-				background-color: #303030;
+				background-color: #222222;
 			}
 
 		#footer .pagination span {
